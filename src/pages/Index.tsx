@@ -102,18 +102,12 @@ const Index = () => {
             </div>
             <div className="relative animate-scale-in">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl rounded-full"></div>
-              <div className="relative bg-card border border-border rounded-3xl p-8 shadow-2xl">
-                <div className="grid grid-cols-3 gap-6">
-                  {[1, 2, 3, 4, 5, 6].map((i) => (
-                    <div key={i} className="bg-muted/50 rounded-lg p-4 flex items-center justify-center hover:scale-105 transition-transform">
-                      <div className="w-6 h-6 bg-primary/20 rounded-full animate-pulse" style={{ animationDelay: `${i * 0.2}s` }}></div>
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-6 text-center">
-                  <div className="text-2xl font-bold text-primary">99.9%</div>
-                  <div className="text-sm text-muted-foreground">Uptime</div>
-                </div>
+              <div className="relative flex justify-center">
+                <img 
+                  src="https://cdn.poehali.dev/files/a966ef9f-bec2-4b51-977e-e6a26751fd8b.jpg" 
+                  alt="Windows 10 Professional" 
+                  className="w-full max-w-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
           </div>
