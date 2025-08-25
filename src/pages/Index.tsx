@@ -233,7 +233,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <Icon name="Cpu" size={20} className="text-primary-foreground" />
                 </div>
-                <span className="text-xl font-bold">TechCorp</span>
+                <span className="text-xl font-bold">Windows 10 Pro</span>
               </div>
               <p className="text-muted-foreground">
                 Создаем технологии будущего для вашего успеха сегодня.
