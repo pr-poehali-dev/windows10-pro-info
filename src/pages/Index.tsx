@@ -82,7 +82,7 @@ const Index = () => {
                   Инновационные технологии
                 </Badge>
                 <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                  Будущее <span className="text-primary">технологий</span> начинается здесь
+                  <span className="text-primary">Windows 10 Pro</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   Создаем передовые решения для цифровой трансформации вашего бизнеса. 
